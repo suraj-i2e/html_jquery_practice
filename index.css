@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(29, 28, 28);
+  color: white;
+}
+
+
+.navbar-brand{
+  color: white;
+  font-weight: 500;
+}
+.jumbotron h3 {
+  padding: 30px;
+}
+.jumbotron form{
+  padding-bottom: 50px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mcard{
+  background-color: black;
+  border-radius:10px;
+  margin: 20px;
+}
+.well{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#movies img, #movie img{
+    width:100%;
+  }
+  
+  @media(min-width:960px){
+    #movies .col-md-3 .well{
+      height: 390px;
+    }
+  
+    #movies .col-md-3 img{
+      height:240px;
+    }
+  }
